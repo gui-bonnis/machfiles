@@ -39,7 +39,7 @@ export XDG_CACHE_HOME=$HOME/.cache
 export XDG_DATA_HOME=$HOME/.local/share
 
 # Compositor
-#picom -b
+picom -b
 
 # Hide mouse when typing
 # xbanish &

@@ -10,5 +10,5 @@
 4) Zoxide for Z system navigation Installed
 pacman -S zoxide
 
-5) Next is DWM
+5) DWM Basic git repo Installed
 6) Next is ST
