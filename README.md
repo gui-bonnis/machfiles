@@ -4,8 +4,11 @@
 2) X folder created
   - Need to fix xprofile file. For now all config are being load from .xinitrc
 
-3) Install Zsh Installed
+3) Zsh Installed
   - Need to check all configurations, plugins and other stuff to check as item done
 
-4) Install zoxide for Z system navigation
+4) Zoxide for Z system navigation Installed
 pacman -S zoxide
+
+5) Next is DWM
+6) Next is ST
