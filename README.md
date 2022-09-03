@@ -11,4 +11,10 @@
 pacman -S zoxide
 
 5) DWM Basic git repo Installed
-6) Next is ST
+6) Next DWMBlocks 
+7) Next is ST
+8) Picom configured
+pacman -S picom
+
+9) Nitrogen Installed and configured
+10) Alacritty Installed and configured
