@@ -18,3 +18,12 @@ pacman -S picom
 
 9) Nitrogen Installed and configured
 10) Alacritty Installed and configured
+
+vifm
+pulse audio
+pavucontrol
+viweb
+lazygit
+neofetch
+gohtop
+bottom (btm)
