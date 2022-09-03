@@ -1,5 +1,5 @@
 # Status Bar
-#dwmblocks &
+dwmblocks &
 
 # Wallpaper
 nitrogen --restore &
