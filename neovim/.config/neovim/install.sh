@@ -22,3 +22,8 @@ cd neovim
 make CMAKE_BUILD_TYPE=Release
 sudo make install
 
+# Add python plugin support
+pip install pynvim
+
+
+
