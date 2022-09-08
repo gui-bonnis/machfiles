@@ -1,7 +1,20 @@
 # machfiles
 0) Need to check installation order to garante that the software will be installed before stow command
 
+sudo pacman -S git stow
+git clone https://github.com/gui-bonnis/machfiles.git ~/
 
+cd machfiles
+
+stow alacritty/
+stow dmenu-5.1/
+stow dwm-6.3/
+stow dwmblocks/
+stow fontconfig/
+stow lazygit/
+stow neovim/
+stow picom/
+stow zsh/
 
 1) Basic folder created
 2) X folder created
