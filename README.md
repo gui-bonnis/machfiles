@@ -1,7 +1,7 @@
 # machfiles
 0) Need to check installation order to garante that the software will be installed before stow command
 
-sudo pacman -S git stow
+sudo pacman -S git stow zsh zsh-completions
 git clone https://github.com/gui-bonnis/machfiles.git ~/
 
 cd machfiles
@@ -24,7 +24,7 @@ stow zsh/
   - Need to check all configurations, plugins and other stuff to check as item done
 
 4) Zoxide for Z system navigation Installed
-pacman -S zoxide
+pacman -S zoxide fzf
 
 5) DWM Basic git repo Installed
 6) Next DWMBlocks 
