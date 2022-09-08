@@ -1,6 +1,7 @@
 # machfiles
 0) Need to check installation order to garante that the software will be installed before stow command
 
+sudo pacman -Sy archlinux-keyring -- if error during pacman -Syu
 sudo pacman -S git stow zsh zsh-completions
 git clone https://github.com/gui-bonnis/machfiles.git ~/
 
