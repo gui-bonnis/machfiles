@@ -1,7 +1,5 @@
 local fn = vim.fn
 
-
-
 -- Automatically install packer
 local install_path = fn.stdpath "data" .. "/site/pack/packer/start/packer.nvim"
 if fn.empty(fn.glob(install_path)) > 0 then
@@ -44,6 +42,7 @@ packer.init {
 return packer.startup(function(use)
   use { "wbthomason/packer.nvim", commit = "50aeb9060cf64c3c27e6d7b11d7af9e209ed6c3b" } -- Have packer manage itself
   -- My plugins here
+  use { "nvim-lua/popup.nvim", commit = "" }-- An implementation of the Popup API from vim in Neovim
   use { "nvim-lua/plenary.nvim", commit = "4b66054e75356ac0b909bbfee9c682e703f535c2" } -- Useful lua functions used by lots of plugins
   use { "windwp/nvim-autopairs", commit = "fa6876f832ea1b71801c4e481d8feca9a36215ec" } -- Autopairs, integrates with both cmp and treesitter
   use { "numToStr/Comment.nvim", commit = "2c26a00f32b190390b664e56e32fd5347613b9e2" }
@@ -61,7 +60,7 @@ return packer.startup(function(use)
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "8223c970677e4d88c9b6b6d81bda23daf11062bb" }
-  use { "lunarvim/darkplus.nvim", commit = "2584cdeefc078351a79073322eb7f14d7fbb1835" }
+  use { "lunarvim/darkplus.nvim", commit = "" }
 
   -- cmp plugins
   use { "hrsh7th/nvim-cmp", commit = "b16e5bcf1d8fd466c289eab2472d064bcd7bab5d" } -- The completion plugin
@@ -95,6 +94,11 @@ return packer.startup(function(use)
   use { "rcarriga/nvim-dap-ui", commit = "d76d6594374fb54abf2d94d6a320f3fd6e9bb2f7" }
   use { "ravenxrz/DAPInstall.nvim", commit = "8798b4c36d33723e7bba6ed6e2c202f84bb300de" }
 
+  -- WhichKey
+  use { "folke/which-key.nvim", commit = "" }
+
+  -- use { "max397574/colortils", commit = ""}
+  
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
