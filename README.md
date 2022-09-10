@@ -37,6 +37,7 @@ pacman -S picom
 10) Alacritty Installed and configured
 11) Lazygit Installed
 12) Nerdfont installed
+	fc-cache -f -v
 13) Need to check font config
 14) Neofetch installed
 
@@ -49,6 +50,6 @@ bottom (btm)
 
 
 Ideas
-Create a script to initiate git repo 
-and start any new project using any template (test, ci/cd, code as infra, so on...)
-plus git ignore and commit it
+1) Create a script to initiate git repo and start any new project using any template (test, ci/cd, code as infra, so on...) plus git ignore and commit it
+
+2) create run default config for java prod mode and debug mode
