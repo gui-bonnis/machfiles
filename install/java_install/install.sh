@@ -10,3 +10,4 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk version
 
 sdk install java 17.0.4.1-tem
+sdk install maven 3.8.6
