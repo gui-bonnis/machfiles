@@ -98,8 +98,11 @@ return packer.startup(function(use)
   -- WhichKey
   use { "folke/which-key.nvim", commit = "" }
 
-  -- use { "max397574/colortils", commit = ""}
-  
+  -- Java
+
+  use { "mfussenegger/nvim-jdtls", commit = "" }
+
+ 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

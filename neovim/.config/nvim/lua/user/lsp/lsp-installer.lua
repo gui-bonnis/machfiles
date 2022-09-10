@@ -11,6 +11,7 @@ local servers = {
   "yamlls",
   "ansiblels",
   "vimls",
+  "jdtls"
 }
 
 lsp_installer.setup()
