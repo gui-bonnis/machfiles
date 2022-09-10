@@ -40,6 +40,15 @@ pacman -S picom
 	fc-cache -f -v
 13) Need to check font config
 14) Neofetch installed
+15) YAY 
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+16) Paru
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+
 
 vifm
 pulse audio
@@ -53,3 +62,10 @@ Ideas
 1) Create a script to initiate git repo and start any new project using any template (test, ci/cd, code as infra, so on...) plus git ignore and commit it
 
 2) create run default config for java prod mode and debug mode
+3) java coding configuration
+  Create menu for refactoring
+4) Execute code lint and code Sonar verification at some point
+5) Execute test when editin test file, need to determine better the event 
+
+20) Create menu for file manipulation at Lexplorer
+
