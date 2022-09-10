@@ -46,3 +46,9 @@ pavucontrol
 viweb
 gohtop
 bottom (btm)
+
+
+Ideas
+Create a script to initiate git repo 
+and start any new project using any template (test, ci/cd, code as infra, so on...)
+plus git ignore and commit it
