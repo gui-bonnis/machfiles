@@ -1,0 +1,8 @@
+# Install vieb
+mkdir ~/tmp/
+curl https://objects.githubusercontent.com/github-production-release-asset-2e65be/170111694/83c9873e-6256-47b1-aa2a-543ffbacb4f4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220911%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220911T230544Z&X-Amz-Expires=300&X-Amz-Signature=6d3c624eeb1c7717c6f8efa2386848d93920b3562e41ab38c491a1d30ec1280b&X-Amz-SignedHeaders=host&actor_id=112274577&key_id=0&repo_id=170111694&response-content-disposition=attachment%3B%20filename%3Dvieb-9.1.0.pacman&response-content-type=application%2Foctet-stream ~/tmp/
+sudo pacman -U ~/tmp/vieb*
+
+# Install VIFM
+sudo pacman -S vifm  
+need to rice it!
