@@ -37,6 +37,8 @@
 ### java (optional)
 
 # TODO
+ - Create Keyboard configuration
+
  - x
    - Study Xorg
 
