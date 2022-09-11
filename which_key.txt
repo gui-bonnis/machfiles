@@ -1,0 +1,91 @@
+# Which Key menu configuration
+
+1) Editor (nvim)
+    - Intial Page
+    - Explorer
+        - Rename File
+        - Create File
+        - Open File
+        - Save
+        - Cut / Paste
+    - Terminal
+        - Open / Close (toggle)
+    - Basic Operations
+        - Find
+        - Replace
+        - Comment
+        - Format File
+        - Buffers
+            - List
+            - Open
+            - Close
+            - Close All
+            - Save
+            - Save All
+        - Navigate
+            - Go to definition
+            - Go to reference
+            - Move back
+    - Vim Command
+        - Motions
+        - Operations
+        - Macros
+        - Navigation
+    - Plugins
+        - Installed
+        - Commands
+
+
+2) Language / Context dependent
+    - Java, Go, C#, Shell
+    - LaTeX, Shell
+    - Todo (God Mode)
+    - CheatSheet
+    - Run
+        - Executable
+        - Debug
+        - Test
+        - Code Lens
+    
+3) Tools (Context dependent)
+    - Git, Lazygit
+    - Maven, Gradel, Bower, Grunt, etc...
+    - Terraform, Ansible
+    - LaTeX
+    - Docker
+    - Resource Manager (Bottom, Htop, etc...)
+    - Postman (or other tool)
+    - Terminal (Nodejs, Python, Go, SQL, Google SDK, etc...)
+    - Hot Reload
+    - Markdown
+    - CheatSheet
+    - Code Lens
+
+4) Project (Context dependent)
+    - Create new Project
+        - Choose Language
+        - Choose Template
+            - Test
+            - Code Lens
+            - CI/CD
+            - Package Manager
+            - Infrastructure as Code
+        - Fill project information
+        - Create git repository (and make the first commit)
+    - Open Project
+    - Close Project
+
+5) Coding (Context dependent)
+    - Refactor
+        - Rename
+        - Generate Methods, Constructors ...
+    - Snippets
+    - Generate Code
+      - Test
+
+6) Other Features
+    - Copy / Paste
+    - Open Links
+    - Open Media
+    - Pomodore
+    - TODO
