@@ -1,71 +1,81 @@
-# machfiles
-0) Need to check installation order to garante that the software will be installed before stow command
+# Installation
 
-sudo pacman -Sy archlinux-keyring -- if error during pacman -Syu
-sudo pacman -S git stow zsh zsh-completions
-git clone https://github.com/gui-bonnis/machfiles.git ~/
+## Basic OS 
 
-cd machfiles
+### x
+### dwm
+### dmenu
+### st 
+### zsh
+### git
+### firefox
+### pavucontrol
 
-stow alacritty/
-stow dmenu-5.1/
-stow dwm-6.3/
-stow dwmblocks/
-stow fontconfig/
-stow lazygit/
-stow neovim/
-stow picom/
-stow zsh/
+## OS Ricing
 
-1) Basic folder created
-2) X folder created
-  - Need to fix xprofile file. For now all config are being load from .xinitrc
+### dwmblocks
+### picom
+### fonts config
+### nitrogen
+### neofetch
 
-3) Zsh Installed
-  - Need to check all configurations, plugins and other stuff to check as item done
+## Tools (optional)
 
-4) Zoxide for Z system navigation Installed
-pacman -S zoxide fzf
+### paru / yay
+### alacritty
+### gitlazy
+### zoxide
+### bottom
+### vifm
+### vieb
 
-5) DWM Basic git repo Installed
-6) Next DWMBlocks 
-7) Next is ST
-8) Picom configured
-pacman -S picom
+## Coding
 
-9) Nitrogen Installed and configured
-10) Alacritty Installed and configured
-11) Lazygit Installed
-12) Nerdfont installed
-	fc-cache -f -v
-13) Need to check font config
-14) Neofetch installed
-15) YAY 
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-16) Paru
-git clone https://aur.archlinux.org/paru.git
-cd paru
-makepkg -si
+### nodejs
+### python
+### neovim
+### java (optional)
 
+# TODO
+ - x
+   - Study Xorg
 
-vifm
-pulse audio
-pavucontrol
-viweb
-gohtop
-bottom (btm)
+ - DWM 
+   - Review Plugins
 
+ - DWNBlocks
+   - Create configuration
 
-Ideas
-1) Create a script to initiate git repo and start any new project using any template (test, ci/cd, code as infra, so on...) plus git ignore and commit it
+ - ST 
+   - Review Plugins
+   
+ - Zsh
+   - Review
+     - Alias
+     - Functions
+     - Exports
+     - Vi mode 
+     - zshrc
+   - Fix folder structure
 
-2) create run default config for java prod mode and debug mode
-3) java coding configuration
-  Create menu for refactoring
-4) Execute code lint and code Sonar verification at some point
-5) Execute test when editin test file, need to determine better the event 
+ - GitLazy  
+   - Learn it 
 
-20) Create menu for file manipulation at Lexplorer
+ - Vifm 
+   - Create Installation
 
+ - Vieb
+   - Create Installation
+
+ - Neovim
+   - Setup Which key
+   - Setup Autocommand
+ 
+ - Java Development
+   - Review Java Debug configuration
+
+ - Infrastructure As Code
+   - Add Ubuntu Installation
+   - Create Ansible Installation
+
+  
