@@ -6,3 +6,6 @@ sudo pacman -U ~/tmp/vieb*
 # Install VIFM
 sudo pacman -S vifm  
 need to rice it!
+
+Install polybar
+sudo pacman -S polybar
