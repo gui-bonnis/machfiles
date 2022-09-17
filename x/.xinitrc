@@ -1,5 +1,5 @@
 # Status Bar
-dwmblocks &
+./.config/dwm-bar/dwm-bar.sh &
 
 # Wallpaper
 nitrogen --restore &
