@@ -1,5 +1,5 @@
 # Status Bar
-./.config/dwm-bar/dwm-bar.sh &
+$HOME/.config/dwm-bar/dwm-bar.sh &
 
 # Wallpaper
 nitrogen --restore &
@@ -71,4 +71,5 @@ picom --experimental-backends -b
 # export ZDOTDIR=$HOME/.config/zsh
 
 # DWM
-exec dwm
+exec dwm 
+
