@@ -1,4 +1,4 @@
-# Which Key menu configuration
+#rWhich Key menu configuration
 
 1) Editor (nvim)
     - Intial Page
@@ -45,8 +45,21 @@
         - Executable
         - Debug
         - Test
-        - Code Lens
-    
+            - Method
+            - Class
+        - Lint
+            - File
+            - Project
+        - Quality
+            - File
+            - Project
+    - Debug
+        - Next
+        - Till Breakpoint
+        - Stop
+        - In
+        - Out
+
 3) Tools (Context dependent)
     - Git, Lazygit
     - Maven, Gradel, Bower, Grunt, etc...
