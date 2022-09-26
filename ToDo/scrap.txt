@@ -9,3 +9,17 @@ need to rice it!
 
 Install polybar
 sudo pacman -S polybar
+
+#next task 
+study 
+telescope OK
+tree sitter look for all API methods and learn all shortcuts
+CMP
+LSP
+DAP
+JDTLS
+Snippets 
+
+fix
+Null-ls startup for formatting
+which key

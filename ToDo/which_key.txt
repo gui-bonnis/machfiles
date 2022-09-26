@@ -12,6 +12,22 @@
         - Open / Close (toggle)
     - Basic Operations
         - Find
+            - Find in Files
+            - File Name
+            - Recent Files
+            - Recent Projects
+            - Test Files
+            - Bookmarks
+            - Quick Fix
+            - Todo List
+              keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
+              keymap("n", "<leader>ft", ":Telescope live_grep<CR>", opts)
+              keymap("n", "<leader>fp", ":Telescope projects<CR>", opts)
+              keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
+              keymap("n", "<leader>fq", ":Telescope quickfix<CR>", opts)
+              keymap("n", "<leader>fr", ":Telescope registers<CR>", opts)
+              keymap("n", "<leader>fo", ":Telescope oldfiles<CR>", opts)
+              keymap("n", "<leader>fm", ":Telescope marks<CR>", opts)
         - Replace
         - Comment
         - Format File

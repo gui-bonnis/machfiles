@@ -70,8 +70,8 @@ zsh_add_completion "esc/conda-zsh-completion" false
 [ -f /usr/share/doc/fzf/examples/completion.zsh ] && source /usr/share/doc/fzf/examples/completion.zsh
 [ -f /usr/share/doc/fzf/examples/key-bindings.zsh ] && source /usr/share/doc/fzf/examples/key-bindings.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-[ -f $ZDOTDIR/completion/_fnm ] && fpath+="$ZDOTDIR/completion/"
-# export FZF_DEFAULT_COMMAND='rg --hidden -l ""'
+#[ -f $ZDOTDIR/completion/_fnm ] && fpath+="$ZDOTDIR/completion/"
+#export FZF_DEFAULT_COMMAND='nvim $(find * -type f | fzf)' #'rg --hidden -l ""'
 # compinit
 #
 # # Edit line in vim with ctrl-e:

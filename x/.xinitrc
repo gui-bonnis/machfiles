@@ -1,6 +1,3 @@
-# Status Bar
-$HOME/.config/dwm-bar/dwm-bar.sh &
-
 # Wallpaper
 nitrogen --restore &
 # Random Photo Every Login
@@ -69,6 +66,9 @@ picom --experimental-backends -b
 
 # zsh config dir
 # export ZDOTDIR=$HOME/.config/zsh
+
+# Status Bar
+$HOME/.config/dwm-bar/dwm-bar.sh &
 
 # DWM
 exec dwm 

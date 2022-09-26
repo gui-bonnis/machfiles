@@ -43,7 +43,7 @@ keymap("v", "p", '"_dP', opts)
 
 -- Insert --
 -- Press jk fast to enter
-keymap("i", "jk", "<ESC>", opts)
+--keymap("i", "jk", "<ESC>", opts)
 
 -- Visual --
 -- Stay in indent mode
@@ -60,9 +60,17 @@ keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
 keymap("n", "<leader>ft", ":Telescope live_grep<CR>", opts)
 keymap("n", "<leader>fp", ":Telescope projects<CR>", opts)
 keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
+keymap("n", "<leader>fq", ":Telescope quickfix<CR>", opts)
+keymap("n", "<leader>fr", ":Telescope registers<CR>", opts)
+keymap("n", "<leader>fo", ":Telescope oldfiles<CR>", opts)
+keymap("n", "<leader>fm", ":Telescope marks<CR>", opts)
+-- keymap("n", "<leader>fe", ":Telescope file_browser<CR>", opts)
 
 -- Git
 keymap("n", "<leader>gg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", opts)
+
+-- Resource Manager
+keymap("n", "<leader>gr", "<cmd>lua _RESOURCE_TOGGLE()<CR>", opts)
 
 -- Comment
 keymap("n", "<leader>/", "<cmd>lua require('Comment.api').toggle_current_linewise()<CR>", opts)

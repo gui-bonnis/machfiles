@@ -9,8 +9,8 @@ local servers = {
   "bashls",
   "jsonls",
   "yamlls",
-  "ansiblels",
-  "vimls",
+  -- "ansiblels",
+  -- "vimls",
   "jdtls"
 }
 
