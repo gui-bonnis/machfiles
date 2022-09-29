@@ -1,0 +1,7 @@
+[user]
+	email = guibonnis@gmail.com
+  name = gui-bonnis
+
+[ghq "https://github.com/gui-bonnis/com-myfood-inventory-api"]
+vcs = git
+root = ~/projects
